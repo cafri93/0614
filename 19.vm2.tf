@@ -30,7 +30,7 @@ resource "azurerm_virtual_machine" "web2" {
         disable_password_authentication = false
         ssh_keys {
             path     = "/home/azureuser/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCorVzvwBC4ULke0bkzMqX894VonmygHSPbZVZmpi6JpzCvTZO8rl7cvjPXApWNk9ujca3uuUWQzdnjLy8WDuHm8ZkqLb88MrVsNPn5kDWlGWXtVJThPI3Ggp0kuIIrmgtRFhUzpTVFtbYZNyG3W9IIa3lSkktMcT1ezrWohfU8JHice5FFP5fGtTM045qhtU4qwusVA0mOZD1T/Oafoud8BMoA48fTlbk64IU+QTs5bhKsYfvKLR3gxC5wKHAqOgfEua18iMrEQHeWu2QFAyeH2iLYkq629khs7R5uNB3lKYZrJzLaR6tSJWHrFZOIfaRQ40Bn641WYT7cMy7LS4ZR7c25+V7yrjm1zzx+J1HHELbncAa24lCthHguFhHL57mlCLCvQvp5iKwOxCB5fM7VSP2YCrqvA1IlYjZdqsR3M13sNRgJEHUJbp64GIk7iwzg21gq8IxkZ5QODyVOSNUDdP4SJzjnYJYz2vLFP+64FaGfBEoFtOGUshF6D4VPUUs= azureuser@user13-admin"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMWuogbu7R5wCUNqEZMm3kZ13DPfA9R3ZJMn01sc8c6d5FS0ZDY0aTAIDxwafJC2FI90X5ghPwEMbww6pe3xo0p87wS/sHknpcNd5tCOsJNwagQ2MyfeagV5WpvTv511Wkg9uXBMJ2wpvQerXy9mGtqXdMXa2++EMC1xikQuNarxI72xuzMlt+nLZzMYsMEsh9MyvRPlHvQFx8Djd7J1IVriBsCrAKLbTVw3sHvG2w/Ea0jsyOhhflo4ytNeB4goUY7zGE8VLzkEmbWwbv42PHPO0VgrwpvSYoVEYOngkKMNw7hGzTeHt1y1PO3VF8a+LALczq249FPwYb7xL2SgzTpvD70Enuh39NsOZlj7QFssocv9FxDyejZdfReYxWgL2ufnMgQLByy8NI6KN2gRl97f2XO5F6ypxmgktvK0Uxj2ZkEOIvYbWKbbO1eYGeRft9gTElnIWJgqcI4kNPeTsvV36kHYPQMruakjKQ64HLNbAN6T8QIvJeXLK3jhMxxs5UlgX2nMgflFu+Fpa2EQzeHffMq/Fu55uUGvDZp6wUasYbC9UcNgvnOE1v9XaDAgyP4ee7M+4g/Mg9UDApa2fkxQrVR4fPGfd7Nmb91MUjovo57Pl/fJXiO2mpx4+z18bDTgEWrPlMzWlfNhiN53iON5OYQtCXOguy+Gr6PENNnw== azureuser@user13-admin"
         }
     }
     boot_diagnostics {
